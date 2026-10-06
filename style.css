@@ -1,0 +1,172 @@
+/* =====================================================
+   GENERAL
+===================================================== */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f5f7fb;
+
+}
+
+
+/* =====================================================
+   TASK 1
+===================================================== */
+
+.course-completed {
+
+    text-decoration: line-through;
+
+    opacity: 0.6;
+
+}
+
+
+.course-highlight {
+
+    background-color: #fff3cd !important;
+
+    border: 3px solid #ffc107 !important;
+
+}
+
+
+.course-name {
+
+    cursor: pointer;
+
+}
+
+
+
+/* =====================================================
+   TASK 2
+===================================================== */
+
+.student-id-card {
+
+    padding: 30px;
+
+    min-height: 280px;
+
+    border-radius: 15px;
+
+    background-color: #cfe2ff;
+
+    border: 2px solid #0d6efd;
+
+}
+
+
+.cgpa-badge {
+
+    display: inline-block;
+
+    padding: 8px 15px;
+
+    margin-top: 5px;
+
+    border-radius: 20px;
+
+    background-color: #198754;
+
+    color: white;
+
+    font-weight: bold;
+
+}
+
+
+
+/* =====================================================
+   TASK 4
+===================================================== */
+
+.dashboard-stat {
+
+    background-color: white;
+
+    border: 1px solid #ddd;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    height: 100%;
+
+}
+
+
+.field-error {
+
+    color: #dc3545;
+
+    font-size: 14px;
+
+    margin-top: 5px;
+
+}
+
+
+.valid-field {
+
+    border: 2px solid #198754 !important;
+
+}
+
+
+.invalid-field {
+
+    border: 2px solid #dc3545 !important;
+
+}
+
+
+.status-excellent {
+
+    color: #198754;
+
+    font-weight: bold;
+
+}
+
+
+.status-good {
+
+    color: #0d6efd;
+
+    font-weight: bold;
+
+}
+
+
+.status-satisfactory {
+
+    color: #fd7e14;
+
+    font-weight: bold;
+
+}
+
+
+.status-warning {
+
+    color: #dc3545;
+
+    font-weight: bold;
+
+}
+
+
+.card-buttons {
+
+    display: flex;
+
+    gap: 8px;
+
+}
+
